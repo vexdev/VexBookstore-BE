@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="VexStore:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SpringAppSecurity.war">
+      <element id="artifact" artifact-name="VexStore:war exploded" />
+    </root>
+  </artifact>
+</component>

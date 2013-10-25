@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Localhost vxtest" product="MySQL" version="5.1.44" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="8bf6c128-ab2e-4e12-be0d-d846b212ec48">
+    <extra-name-characters>#@</extra-name-characters>
+    <identifier-quote-string>`</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://localhost:3306/pwtest</jdbc-url>
+    <user-name>pwuser</user-name>
+    <user-password>dfdadfdddfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+    <schema-pattern>pwtest.*</schema-pattern>
+    <libraries>
+      <library>
+        <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.26/mysql-connector-java-5.1.26.jar!/</url>
+      </library>
+    </libraries>
+    <schema name="" catalog="pwtest"/>
+    <table name="admin" schema="" catalog="pwtest" type="TABLE">
+      <column name="email" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="display_name" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="email"/>
+    </table>
+    <table name="aubo" schema="" catalog="pwtest" type="TABLE">
+      <column name="aid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="isbn" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="aid,isbn"/>
+      <foreign-key name="aubo_ibfk_1" columns="aid" ref-table="author" ref-schema="" ref-catalog="pwtest" ref-columns="aid" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="aubo_ibfk_2" columns="isbn" ref-table="book" ref-schema="" ref-catalog="pwtest" ref-columns="isbn" update-rule="0" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="author" schema="" catalog="pwtest" type="TABLE">
+      <column name="aid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="surname" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="aid"/>
+      <exported-key name="aubo_ibfk_1" table="aubo" schema="" catalog="pwtest" columns="aid"/>
+    </table>
+    <table name="book" schema="" catalog="pwtest" type="TABLE">
+      <column name="isbn" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="url" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="price" sqlType="DECIMAL" length="10" precision="0" nullable="true" jdbcType="3"/>
+      <column name="pages" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="edition" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="isbn"/>
+      <exported-key name="aubo_ibfk_2" table="aubo" schema="" catalog="pwtest" columns="isbn"/>
+      <exported-key name="cabo_ibfk_2" table="cabo" schema="" catalog="pwtest" columns="isbn"/>
+      <exported-key name="edbo_ibfk_2" table="edbo" schema="" catalog="pwtest" columns="isbn"/>
+    </table>
+    <table name="cabo" schema="" catalog="pwtest" type="TABLE">
+      <column name="cid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="isbn" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="cid,isbn"/>
+      <foreign-key name="cabo_ibfk_1" columns="cid" ref-table="category" ref-schema="" ref-catalog="pwtest" ref-columns="cid" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="cabo_ibfk_2" columns="isbn" ref-table="book" ref-schema="" ref-catalog="pwtest" ref-columns="isbn" update-rule="0" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="category" schema="" catalog="pwtest" type="TABLE">
+      <column name="cid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="cid"/>
+      <exported-key name="cabo_ibfk_1" table="cabo" schema="" catalog="pwtest" columns="cid"/>
+    </table>
+    <table name="edbo" schema="" catalog="pwtest" type="TABLE">
+      <column name="eid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="isbn" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="eid,isbn"/>
+      <foreign-key name="edbo_ibfk_1" columns="eid" ref-table="editor" ref-schema="" ref-catalog="pwtest" ref-columns="eid" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="edbo_ibfk_2" columns="isbn" ref-table="book" ref-schema="" ref-catalog="pwtest" ref-columns="isbn" update-rule="0" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="editor" schema="" catalog="pwtest" type="TABLE">
+      <column name="eid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="eid"/>
+      <exported-key name="edbo_ibfk_1" table="edbo" schema="" catalog="pwtest" columns="eid"/>
+    </table>
+    <table name="user" schema="" catalog="pwtest" type="TABLE">
+      <column name="email" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="surname" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="email"/>
+    </table>
+  </data-source>
+</component>
