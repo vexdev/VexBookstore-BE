@@ -190,7 +190,6 @@ $(document).ready(function () {
             sequentialUploads: true,
             dataType: 'json',
             done: function (e, result) {
-                cons
                 if(result.result.toLowerCase() === "ok") location.reload();
             }
         });
