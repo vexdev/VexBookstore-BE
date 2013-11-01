@@ -11,7 +11,7 @@ import javax.persistence.Id;
  * To change this template use File | Settings | File Templates.
  */
 @javax.persistence.IdClass(CaboPK.class)
-@Entity
+@Entity(name = "cabo")
 public class Cabo {
     private int cid;
     private String isbn;

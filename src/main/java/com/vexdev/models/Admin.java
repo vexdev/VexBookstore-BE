@@ -13,7 +13,7 @@ import javax.persistence.Id;
  * Time: 00:07
  * To change this template use File | Settings | File Templates.
  */
-@Entity
+@Entity(name = "admin")
 public class Admin implements BaseEntity {
     private String email;
     private String password;

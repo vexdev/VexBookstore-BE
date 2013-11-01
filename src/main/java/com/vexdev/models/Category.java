@@ -15,7 +15,7 @@ import java.util.List;
  * Time: 00:07
  * To change this template use File | Settings | File Templates.
  */
-@Entity
+@Entity(name = "category")
 public class Category implements BaseEntity {
     private int cid;
     private String name;

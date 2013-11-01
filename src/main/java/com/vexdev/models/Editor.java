@@ -15,7 +15,7 @@ import java.util.List;
  * Time: 00:07
  * To change this template use File | Settings | File Templates.
  */
-@Entity
+@Entity(name = "editor")
 public class Editor implements BaseEntity {
     private int eid;
     private String name;

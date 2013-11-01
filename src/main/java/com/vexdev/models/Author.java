@@ -12,7 +12,7 @@ import java.util.List;
  * Time: 00:07
  * To change this template use File | Settings | File Templates.
  */
-@Entity
+@Entity(name = "author")
 public class Author implements BaseEntity {
     private int aid;
     private String name;
