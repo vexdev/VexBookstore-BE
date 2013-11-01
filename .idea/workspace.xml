@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j-vexbookstore.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j-vexbookstore.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BooksController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BooksController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/constant/SystemConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/constant/SystemConstants.java" />
     </list>
     <ignored path="VexStore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +25,7 @@
     <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/tests/index.html" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1382264689785" ignored="false" />
     <file path="/web.xml" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383301217250" ignored="false" />
     <file path="/header.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383302055382" ignored="false" />
-    <file path="/BooksController.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383259063075" ignored="false" />
+    <file path="/BooksController.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383305510755" ignored="false" />
     <file path="/books.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383253947459" ignored="false" />
     <file path="/admin.css" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383178022364" ignored="false" />
     <file path="/a.dummy" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1382292085733" ignored="false" />
@@ -126,20 +127,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF">
+      <file leaf-file-name="BooksController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BooksController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j-vexbookstore.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j-vexbookstore.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="37" selection-start="419" selection-end="419" vertical-scroll-proportion="0.3047404">
-              <folding />
+            <state line="125" column="59" selection-start="4941" selection-end="4941" vertical-scroll-proportion="0.88235295">
+              <folding>
+                <element signature="e#7334#7364#0" expanded="false" />
+                <element signature="e#10339#10372#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,8 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/dao/CategoryDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/dao/EditorDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/ajax.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/ajax-notbooks.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" />
@@ -178,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/includes/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j-vexbookstore.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/constant/SystemConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BooksController.java" />
       </list>
     </option>
   </component>
@@ -1042,14 +1037,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26068377" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25931928" sideWeight="0.2863248" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35008103" sideWeight="0.23931624" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.7393162" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25931928" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4814815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="327" y="22" width="664" height="705" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25931928" sideWeight="0.5185185" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4814815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="327" y="22" width="664" height="705" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1124,34 +1119,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="50" selection-start="1373" selection-end="1389" vertical-scroll-proportion="-12.083333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/authors.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="30" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-10.708333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/categories.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="39" selection-start="866" selection-end="866" vertical-scroll-proportion="-5.0833335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/AdminsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admins.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="34" selection-start="1860" selection-end="1860" vertical-scroll-proportion="-19.875">
@@ -1163,15 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="49" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.33382788">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,9 +1184,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="49" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.3340858">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="60" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.48961425">
+        <state line="35" column="60" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.489842">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/AdminsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="352" selection-end="352" vertical-scroll-proportion="0.08577878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j-vexbookstore.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="37" selection-start="419" selection-end="419" vertical-scroll-proportion="0.3047404">
           <folding />
         </state>
       </provider>
@@ -1240,10 +1221,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j-vexbookstore.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/EditorsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="419" selection-end="419" vertical-scroll-proportion="0.3047404">
+        <state line="10" column="13" selection-start="346" selection-end="346" vertical-scroll-proportion="0.08577878">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/constant/SystemConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="52" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3047404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="59" selection-start="4941" selection-end="4941" vertical-scroll-proportion="0.88235295">
+          <folding>
+            <element signature="e#7334#7364#0" expanded="false" />
+            <element signature="e#10339#10372#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

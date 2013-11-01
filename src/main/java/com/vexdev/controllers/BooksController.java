@@ -102,6 +102,8 @@ public class BooksController {
      */
     private String storeFileOrImage(String isbn, MultipartHttpServletRequest request, String bookParameter) {
         try {
+            String baseURL = request.getScheme() + "://" + request.getServerName() + ":" +request.getServerPort();
+
             Book book = bookDAO.getByID(isbn);
             if(book == null) throw new IllegalArgumentException("Book id:"+isbn+" not found.");
 
@@ -121,7 +123,7 @@ public class BooksController {
                 file.createNewFile();
                 mpf.transferTo(file);
 
-                storeParameter(isbn, bookParameter, SystemConstants.BASE_URL+"/resources/uploads/"+mpf.getOriginalFilename());
+                storeParameter(isbn, bookParameter, baseURL+"/resources/uploads/"+mpf.getOriginalFilename());
 
                 return JSONManager.fromSimpleResultOK();
             }
