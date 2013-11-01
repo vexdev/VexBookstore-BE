@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="VexStore:war exploded">
-    <output-path>$PROJECT_DIR$/target/SpringAppSecurity</output-path>
+    <output-path>$PROJECT_DIR$/target/VexBookstore</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="VexStore/web/Web" />
       <element id="directory" name="WEB-INF">
