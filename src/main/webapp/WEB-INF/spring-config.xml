@@ -97,4 +97,6 @@
             </property>
         </bean>
     </mvc:interceptors>
+
+    <bean id="multipartResolver"  class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
 </beans>

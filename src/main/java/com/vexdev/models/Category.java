@@ -1,5 +1,7 @@
 package com.vexdev.models;
 
+import com.vexdev.models.interfaces.BaseEntity;
+
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -14,7 +16,7 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @Entity
-public class Category {
+public class Category implements BaseEntity {
     private int cid;
     private String name;
     private List<Book> books;

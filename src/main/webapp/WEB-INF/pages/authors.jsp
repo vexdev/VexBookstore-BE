@@ -25,19 +25,19 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${authors}" var="author">
-                <tr>
-                    <td><p>${author.aid}</p></td>
-                    <td><p class="edit" id="name_${author.aid}">${author.name}</p></td>
-                    <td><p class="edit" id="desc_${author.aid}">${author.surname}</p></td>
-                    <td><a href=""><span class="glyphicon glyphicon-trash"></span></a></td>
+            <c:forEach items="${entities}" var="author">
+                <tr class="element" id="${author.aid}">
+                    <td>${author.aid}</td>
+                    <td class="name"><p class="edit">${author.name}</p></td>
+                    <td class="surname"><p class="edit">${author.surname}</p></td>
+                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
                 </tr>
             </c:forEach>
-            <tr class="plus">
-                <td>id</td>
-                <td>name</td>
-                <td>surname</td>
-                <td><a href=""><span class="glyphicon glyphicon-plus-sign"></span></a></td>
+            <tr class="plus" id="0">
+                <td>auto</td>
+                <td class="name"><p class="edit">name</p></td>
+                <td class="surname"><p class="edit">surname</p></td>
+                <td><a href="#"><span class="glyphicon glyphicon-plus-sign"></span></a></td>
             </tr>
             </tbody>
         </table>
@@ -47,12 +47,8 @@
 <script src="<c:url value="/resources/assets/js/jquery.js"/>"></script>
 <script src="<c:url value="/resources/js/jquery.jeditable.mini.js"/>"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('.edit').editable('http://www.example.com/save.php', {
-            indicator : 'Saving...',
-            tooltip   : 'Click to edit...'
-        });
-    });
+    var baseUrl = "/authors";
 </script>
 
+<script src="<c:url value="/resources/js/ajax-notbooks.js"/>"></script>
 <jsp:include page="includes/footer.jsp" />

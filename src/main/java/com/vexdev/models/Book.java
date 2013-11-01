@@ -1,7 +1,10 @@
 package com.vexdev.models;
 
+import com.vexdev.models.interfaces.BaseEntity;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,17 +15,24 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @Entity
-public class Book {
+public class Book implements BaseEntity {
     private String isbn;
     private String name;
     private String description;
     private String url;
+    private String imgurl;
     private BigDecimal price;
     private Integer pages;
     private Integer edition;
     private List<Author> authors;
     private List<Category> categories;
     private List<Editor> editors;
+
+    public Book() {
+        authors = new ArrayList<Author>();
+        categories = new ArrayList<Category>();
+        editors = new ArrayList<Editor>();
+    }
 
     @javax.persistence.Column(name = "isbn")
     @Id
@@ -62,6 +72,16 @@ public class Book {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    @javax.persistence.Column(name = "imgurl")
+    @Basic
+    public String getImgurl() {
+        return imgurl;
+    }
+
+    public void setImgurl(String imgurl) {
+        this.imgurl = imgurl;
     }
 
     @javax.persistence.Column(name = "price", precision = 6, scale = 5)
@@ -108,6 +128,7 @@ public class Book {
         if (pages != null ? !pages.equals(book.pages) : book.pages != null) return false;
         if (price != null ? !price.equals(book.price) : book.price != null) return false;
         if (url != null ? !url.equals(book.url) : book.url != null) return false;
+        if (imgurl != null ? !imgurl.equals(book.imgurl) : book.imgurl != null) return false;
 
         return true;
     }
@@ -118,13 +139,15 @@ public class Book {
         result = 31 * result + (name != null ? name.hashCode() : 0);
         result = 31 * result + (description != null ? description.hashCode() : 0);
         result = 31 * result + (url != null ? url.hashCode() : 0);
+        result = 31 * result + (imgurl != null ? imgurl.hashCode() : 0);
         result = 31 * result + (price != null ? price.hashCode() : 0);
         result = 31 * result + (pages != null ? pages.hashCode() : 0);
         result = 31 * result + (edition != null ? edition.hashCode() : 0);
         return result;
     }
 
-    @ManyToMany(mappedBy = "books")
+    @javax.persistence.JoinTable(name = "aubo", catalog = "pwtest", schema = "", joinColumns = @javax.persistence.JoinColumn(name = "isbn", referencedColumnName = "isbn", nullable = false), inverseJoinColumns = @javax.persistence.JoinColumn(name = "aid", referencedColumnName = "aid", nullable = false))
+    @ManyToMany(cascade= CascadeType.ALL)
     public List<Author> getAuthors() {
         return authors;
     }
@@ -160,6 +183,7 @@ public class Book {
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
                 ", url='" + url + '\'' +
+                ", imgurl='" + imgurl + '\'' +
                 ", price=" + price +
                 ", pages=" + pages +
                 ", edition=" + edition +

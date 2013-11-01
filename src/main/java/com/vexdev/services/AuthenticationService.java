@@ -2,7 +2,6 @@ package com.vexdev.services;
 
 import com.vexdev.dao.AdminDAO;
 import com.vexdev.models.Admin;
-import com.vexdev.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -11,7 +10,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import javax.management.relation.Role;
 import java.util.HashSet;
 import java.util.Set;
 

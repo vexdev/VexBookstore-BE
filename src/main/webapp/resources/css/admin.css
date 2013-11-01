@@ -10,3 +10,32 @@ table > tbody > tr:hover {
 tr.plus {
     color: #aaaaaa;
 }
+.picfile {
+    width: 150px;
+}
+.thumbnail {
+    width: 150px;
+}
+.thumbnail input {
+    width: 150px;
+}
+.thumbnail img {
+    height: 100px;
+}
+
+td > p.long {
+    display: block;
+    height: 100px;
+    overflow: scroll;
+}
+
+td > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+td span.add {
+    font-style: italic;
+    color: #aaa;
+}

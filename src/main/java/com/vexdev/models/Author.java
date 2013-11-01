@@ -1,9 +1,8 @@
 package com.vexdev.models;
 
-import javax.persistence.Basic;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import com.vexdev.models.interfaces.BaseEntity;
+
+import javax.persistence.*;
 import java.util.List;
 
 /**
@@ -14,7 +13,7 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @Entity
-public class Author {
+public class Author implements BaseEntity {
     private int aid;
     private String name;
     private String surname;
@@ -72,8 +71,7 @@ public class Author {
         return result;
     }
 
-    @javax.persistence.JoinTable(name = "aubo", catalog = "pwtest", schema = "", joinColumns = @javax.persistence.JoinColumn(name = "aid", referencedColumnName = "aid", nullable = false), inverseJoinColumns = @javax.persistence.JoinColumn(name = "isbn", referencedColumnName = "isbn", nullable = false))
-    @ManyToMany
+    @ManyToMany(mappedBy = "authors", cascade= CascadeType.ALL)
     public List<Book> getBooks() {
         return books;
     }

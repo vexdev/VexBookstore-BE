@@ -26,21 +26,21 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${users}" var="user">
-                <tr>
-                    <td><p class="edit" id="emai_${user.email}">${user.email}</p></td>
-                    <td><p class="edit" id="name_${user.name}">${user.name}</p></td>
-                    <td><p class="edit" id="surn_${user.surname}">${user.surname}</p></td>
-                    <td><p class="edit" id="pass_${user.password}">${user.password}</p></td>
-                    <td><a href=""><span class="glyphicon glyphicon-trash"></span></a></td>
+            <c:forEach items="${entities}" var="user">
+                <tr class="element" id="${user.email}">
+                    <td>${user.email}</td>
+                    <td class="name"><p class="edit">${user.name}</p></td>
+                    <td class="surname"><p class="edit">${user.surname}</p></td>
+                    <td class="password"><p class="edit">${user.password}</p></td>
+                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
                 </tr>
             </c:forEach>
-            <tr class="plus">
-                <td>email</td>
-                <td>name</td>
-                <td>surname</td>
-                <td>password</td>
-                <td><a href=""><span class="glyphicon glyphicon-plus-sign"></span></a></td>
+            <tr class="plus" id="0">
+                <td class="email"><p class="edit">email</p></td>
+                <td class="name"><p class="edit">name</p></td>
+                <td class="surname"><p class="edit">surname</p></td>
+                <td class="password"><p class="edit">password</p></td>
+                <td><a href="#"><span class="glyphicon glyphicon-plus-sign"></span></a></td>
             </tr>
             </tbody>
         </table>
@@ -50,12 +50,8 @@
 <script src="<c:url value="/resources/assets/js/jquery.js"/>"></script>
 <script src="<c:url value="/resources/js/jquery.jeditable.mini.js"/>"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('.edit').editable('http://www.example.com/save.php', {
-            indicator : 'Saving...',
-            tooltip   : 'Click to edit...'
-        });
-    });
+    var baseUrl = "/users";
 </script>
 
+<script src="<c:url value="/resources/js/ajax-notbooks.js"/>"></script>
 <jsp:include page="includes/footer.jsp" />

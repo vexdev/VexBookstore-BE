@@ -25,19 +25,19 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${admins}" var="admin">
-                <tr>
-                    <td><p class="edit" id="name_${admin.email}">${admin.email}</p></td>
-                    <td><p class="edit" id="name_${admin.password}">${admin.password}</p></td>
-                    <td><p class="edit" id="desc_${admin.displayName}">${admin.displayName}</p></td>
-                    <td><a href=""><span class="glyphicon glyphicon-trash"></span></a></td>
+            <c:forEach items="${entities}" var="admin">
+                <tr class="element" id="${admin.email}">
+                    <td>${admin.email}</td>
+                    <td class="password"><p class="edit">${admin.password}</p></td>
+                    <td class="name"><p class="edit">${admin.displayName}</p></td>
+                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
                 </tr>
             </c:forEach>
-            <tr class="plus">
-                <td>email</td>
-                <td>password</td>
-                <td>display name</td>
-                <td><a href=""><span class="glyphicon glyphicon-plus-sign"></span></a></td>
+            <tr class="plus" id="0">
+                <td class="email"><p class="edit">email</p></td>
+                <td class="password"><p class="edit">password</p></td>
+                <td class="name"><p class="edit">display name</p></td>
+                <td><a href="#"><span class="glyphicon glyphicon-plus-sign"></span></a></td>
             </tr>
             </tbody>
         </table>
@@ -47,12 +47,8 @@
 <script src="<c:url value="/resources/assets/js/jquery.js"/>"></script>
 <script src="<c:url value="/resources/js/jquery.jeditable.mini.js"/>"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('.edit').editable('http://www.example.com/save.php', {
-            indicator : 'Saving...',
-            tooltip   : 'Click to edit...'
-        });
-    });
+    var baseUrl = "/admins";
 </script>
 
+<script src="<c:url value="/resources/js/ajax-notbooks.js"/>"></script>
 <jsp:include page="includes/footer.jsp" />

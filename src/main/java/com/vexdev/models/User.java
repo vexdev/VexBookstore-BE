@@ -1,5 +1,7 @@
 package com.vexdev.models;
 
+import com.vexdev.models.interfaces.BaseEntity;
+
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -12,7 +14,7 @@ import javax.persistence.Id;
  * To change this template use File | Settings | File Templates.
  */
 @Entity
-public class User {
+public class User implements BaseEntity {
     private String email;
     private String name;
     private String surname;

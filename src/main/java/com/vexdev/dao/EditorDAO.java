@@ -1,12 +1,9 @@
 package com.vexdev.dao;
 
+import com.sun.istack.internal.NotNull;
+import com.vexdev.dao.interfaces.BaseDAO;
 import com.vexdev.models.Editor;
-import org.hibernate.SessionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -16,17 +13,28 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @Repository
-public class EditorDAO {
+public class EditorDAO extends BaseDAO<Editor> {
+    public static final Class CLASS = Editor.class;
 
-    @Autowired
-    SessionFactory sessionFactory;
+    @Override
+    public boolean setField(@NotNull Editor entity, @NotNull String field, @NotNull String value) {
+        if(field.equalsIgnoreCase("name")) {
+            entity.setName(value);
+        } else if(field.equalsIgnoreCase("eid")) {
+            entity.setEid(Integer.valueOf(value));
+        } else {
+            return false;
+        }
+        return true;
+    }
 
-    /**
-     * Returns a list of editors
-     * @return Every editor in Database.
-     */
-    @Transactional
-    public List<Editor> list() {
-        return sessionFactory.getCurrentSession().createCriteria(Editor.class).list();
+    @Override
+    public Class getEntityClass() {
+        return CLASS;
+    }
+
+    @Override
+    public String getIDName() {
+        return "eid";
     }
 }

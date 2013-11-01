@@ -7,9 +7,11 @@ CREATE TABLE book (
     name VARCHAR(255),
     description TEXT,
     url VARCHAR(255),
+    imgurl VARCHAR(255),
     price DECIMAL(6, 5),
     pages INT,
-    edition INT) ENGINE = InnoDB;
+    edition INT,
+    FULLTEXT KEY `search` (`name`,`description`)) ENGINE = InnoDB;
 
 CREATE TABLE author (
     aid INT PRIMARY KEY NOT NULL AUTO_INCREMENT,

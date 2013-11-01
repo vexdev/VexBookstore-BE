@@ -24,17 +24,17 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${categories}" var="category">
-                <tr>
-                    <td><p>${category.cid}</p></td>
-                    <td><p class="edit" id="name_${category.name}">${category.name}</p></td>
-                    <td><a href=""><span class="glyphicon glyphicon-trash"></span></a></td>
+            <c:forEach items="${entities}" var="category">
+                <tr class="element" id="${category.cid}">
+                    <td>${category.cid}</td>
+                    <td class="name"><p class="edit">${category.name}</p></td>
+                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
                 </tr>
             </c:forEach>
-            <tr class="plus">
-                <td>cid</td>
-                <td>name</td>
-                <td><a href=""><span class="glyphicon glyphicon-plus-sign"></span></a></td>
+            <tr class="plus" id="0">
+                <td>auto</td>
+                <td class="name"><p class="edit">name</p></td>
+                <td><a href="#"><span class="glyphicon glyphicon-plus-sign"></span></a></td>
             </tr>
             </tbody>
         </table>
@@ -44,12 +44,8 @@
 <script src="<c:url value="/resources/assets/js/jquery.js"/>"></script>
 <script src="<c:url value="/resources/js/jquery.jeditable.mini.js"/>"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('.edit').editable('http://www.example.com/save.php', {
-            indicator : 'Saving...',
-            tooltip   : 'Click to edit...'
-        });
-    });
+    var baseUrl = "/categories";
 </script>
 
+<script src="<c:url value="/resources/js/ajax-notbooks.js"/>"></script>
 <jsp:include page="includes/footer.jsp" />

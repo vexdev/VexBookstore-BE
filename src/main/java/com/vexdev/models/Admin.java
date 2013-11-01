@@ -1,9 +1,10 @@
 package com.vexdev.models;
 
+import com.vexdev.models.interfaces.BaseEntity;
+
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,7 +14,7 @@ import javax.persistence.Table;
  * To change this template use File | Settings | File Templates.
  */
 @Entity
-public class Admin {
+public class Admin implements BaseEntity {
     private String email;
     private String password;
     private String displayName;
