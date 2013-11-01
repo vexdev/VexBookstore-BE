@@ -22,7 +22,8 @@
 
     <security:http use-expressions="true">
         <security:intercept-url pattern="/**" access="permitAll" />
-        <security:form-login />
+        <security:form-login login-page="/" default-target-url="/admin"
+                             authentication-failure-url="/loginFailed" />
         <security:logout logout-success-url="/" delete-cookies="JSESSIONID"/>
         <security:remember-me user-service-ref="authenticationService" />
         <security:session-management invalid-session-url="/">

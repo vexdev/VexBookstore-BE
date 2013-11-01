@@ -28,7 +28,13 @@ public class ApplicationController {
                     (UserDetails) authentication.getPrincipal();
             map.addAttribute("userDetails", userDetails);
         }
-        return "index";
+        return "login";
+    }
+
+    @RequestMapping(value = "/loginFailed", method = RequestMethod.GET)
+    public String loginFailed(ModelMap map) {
+        map.addAttribute("error", "Cannot authenticate user.");
+        return "login";
     }
 
     @PreAuthorize("hasRole('admin')")

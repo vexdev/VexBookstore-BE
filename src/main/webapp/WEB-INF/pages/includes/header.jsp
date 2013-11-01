@@ -44,7 +44,7 @@
                 <li><a href="editors">Editors</a></li>
                 <li><a href="users">Users</a></li>
                 <li><a href="administrators">Administrators</a></li>
-                <li class="active"><a>Logged in as ${userDetails.username}</a></li>
+                <li class="active"><a href="<c:url value="/j_spring_security_logout" />" >${userDetails.username}, Logout</a></li>
             </ul>
         </div><!--/.navbar-collapse -->
     </div>

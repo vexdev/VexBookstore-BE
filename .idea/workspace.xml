@@ -7,57 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BaseController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/interfaces/BaseDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/models/interfaces/BaseEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/manager/JSONManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/constant/SystemConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/ajax-notbooks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery-ui-widget.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.fileupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.iframe-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j-vexbookstore.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Admin.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Admin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/AdminDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/AdminDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/AdminsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/AdminsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/services/AuthenticationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/services/AuthenticationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Author.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Author.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/AuthorDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/AuthorDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/AuthorsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/AuthorsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/BookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/BookDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BooksController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BooksController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/CategoriesController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/CategoriesController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Category.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/CategoryDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/CategoryDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Editor.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/models/Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/EditorDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/EditorDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/EditorsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/EditorsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SpringAppSecurity_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringAppSecurity_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SpringAppSecurity_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringAppSecurity_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/dao/UserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/UsersController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/UsersController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VexStore.iml" afterPath="$PROJECT_DIR$/VexStore.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/VexStore_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/VexStore_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/admin.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/ApplicationController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/ApplicationController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admins.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admins.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/authors.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/authors.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/books.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/books.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/categories.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/categories.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sql/create.sql" afterPath="$PROJECT_DIR$/src/sql/create.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editors.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editors.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hibernate_4_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_4_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hibernate_4_2_2__2_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_4_2_2__2_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/includes/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/includes/header.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -65,7 +21,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383254711609" ignored="false" />
     <file path="/create.sql" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383006607531" ignored="false" />
-    <file path="/spring-config.xml" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383038995042" ignored="false" />
+    <file path="/spring-config.xml" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383300679750" ignored="false" />
     <file path="/AuthenticationService.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1382137910232" ignored="false" />
     <file path="/UserDAO.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383260198222" ignored="false" />
     <file path="/AdminDAO.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383259847748" ignored="false" />
@@ -74,8 +30,8 @@
     <file path="/Admin.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383259132403" ignored="false" />
     <file path="/admin.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1382280376149" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/tests/index.html" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1382264689785" ignored="false" />
-    <file path="/web.xml" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383232458346" ignored="false" />
-    <file path="/header.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1382280491027" ignored="false" />
+    <file path="/web.xml" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383301217250" ignored="false" />
+    <file path="/header.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383302055382" ignored="false" />
     <file path="/BooksController.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383259063075" ignored="false" />
     <file path="/books.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383253947459" ignored="false" />
     <file path="/admin.css" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383178022364" ignored="false" />
@@ -85,7 +41,7 @@
     <file path="/AuthorDAO.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383260244542" ignored="false" />
     <file path="/AuthorsController.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383256826010" ignored="false" />
     <file path="/authors.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383298738305" ignored="false" />
-    <file path="/admins.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383298962232" ignored="false" />
+    <file path="/admins.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383299206694" ignored="false" />
     <file path="/AdminsController.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383259579513" ignored="false" />
     <file path="/users.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383261045797" ignored="false" />
     <file path="/UsersController.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383259466353" ignored="false" />
@@ -111,6 +67,8 @@
     <file path="/Editor.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383258974980" ignored="false" />
     <file path="/User.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383259122196" ignored="false" />
     <file path="/ajax-notbooks.js" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383261614935" ignored="false" />
+    <file path="/ApplicationController.java" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383301512116" ignored="false" />
+    <file path="/login.jsp" changelist="7bf7d6b6-956f-47e8-9a57-43f3c84d9540" time="1383301896543" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,64 +134,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="users.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp">
+      <file leaf-file-name="ApplicationController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/ApplicationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="50" selection-start="1373" selection-end="1389" vertical-scroll-proportion="-12.083333">
+            <state line="35" column="60" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editors.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editors.jsp">
+      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="24" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-6.3333335">
+            <state line="27" column="82" selection-start="918" selection-end="918" vertical-scroll-proportion="-6.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authors.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/authors.jsp">
+      <file leaf-file-name="header.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/includes/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="30" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-10.708333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categories.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/categories.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="39" selection-start="866" selection-end="866" vertical-scroll-proportion="-5.0833335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admins.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admins.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="65" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.47095436">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax-notbooks.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ajax-notbooks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="46" column="33" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.6020067">
               <folding />
             </state>
           </provider>
@@ -257,12 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/UsersController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/EditorsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/AdminsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/dao/interfaces/BaseDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/dao/AdminDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vexdev/dao/AuthorDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vexdev/dao/CategoryDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vexdev/dao/EditorDAO.java" />
@@ -273,6 +189,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/authors.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/categories.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admins.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vexdev/controllers/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/login.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/includes/header.jsp" />
       </list>
     </option>
   </component>
@@ -500,6 +422,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VexStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VexStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -793,30 +745,37 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="recentsLimit" value="5" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="vexstore" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="editing.templates" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -1005,47 +964,8 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="Tomcat - Oslinux" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 7.0">
-      <option name="LOCAL" value="false" />
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
-      <deployment>
-        <artifact name="VexStore:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <data>
-          <option name="stagingRemotePath" value="/" />
-          <option name="transportHostId" value="b93a5423-0904-4148-81ef-c4c7170023e9" />
-          <option name="transportStagingTarget">
-            <TransportTarget>
-              <option name="id" value="4dd0dabc-9977-46cc-8ba2-20b2be4c687d" />
-            </TransportTarget>
-          </option>
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62445" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="VexStore:war" />
-        </option>
-      </method>
-    </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat - Oslinux" />
     </list>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -1106,6 +1026,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35008103" sideWeight="0.37037036" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20178282" sideWeight="0.7393162" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1118,14 +1039,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.7393162" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25931928" sideWeight="0.7606838" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23931624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="327" y="22" width="664" height="705" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25931928" sideWeight="0.5185185" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4814815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="327" y="22" width="664" height="705" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1195,68 +1115,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/dao/CategoryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="762" selection-end="762" vertical-scroll-proportion="0.6027088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="840" selection-end="929" vertical-scroll-proportion="0.70428896">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/models/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="361" selection-end="361" vertical-scroll-proportion="0.41860464">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/books.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="0" selection-start="6225" selection-end="6287" vertical-scroll-proportion="0.7413793">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="0" selection-start="6285" selection-end="6545" vertical-scroll-proportion="0.6439169">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ajax-notbooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/dao/interfaces/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="19" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="49" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.34562212">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/CategoriesController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="351" selection-end="351" vertical-scroll-proportion="0.13824885">
@@ -1267,13 +1125,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/dao/EditorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="48" selection-start="752" selection-end="752" vertical-scroll-proportion="0.44510385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1306,9 +1157,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/AdminsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admins.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="65" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.47095436">
+        <state line="49" column="34" selection-start="1860" selection-end="1860" vertical-scroll-proportion="-19.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ajax-notbooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="49" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.33382788">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="64" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.408472">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="27" selection-start="2073" selection-end="2073" vertical-scroll-proportion="0.8145286">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vexdev/controllers/ApplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="60" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="62" selection-start="414" selection-end="414" vertical-scroll-proportion="0.15178572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="82" selection-start="918" selection-end="918" vertical-scroll-proportion="-6.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/includes/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="33" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.6020067">
           <folding />
         </state>
       </provider>

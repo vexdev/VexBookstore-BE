@@ -47,7 +47,7 @@
 <script src="<c:url value="/resources/assets/js/jquery.js"/>"></script>
 <script src="<c:url value="/resources/js/jquery.jeditable.mini.js"/>"></script>
 <script type="text/javascript">
-    var baseUrl = "/admins";
+    var baseUrl = "/administrators";
 </script>
 
 <script src="<c:url value="/resources/js/ajax-notbooks.js"/>"></script>
