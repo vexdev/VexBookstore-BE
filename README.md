@@ -126,4 +126,37 @@ And you are DONE installing Frontend.
 
 ### 7. Installing Search Widget in remote site
 
-TODO
+So you decided to opt for a cross-domain Search Widget, setting up the sample project is really easy, go to the htdocs root directory of the domain in which you want to install the search widget and execute following command:
+
+```bash
+git clone git://github.com/oslinux/VexBookstore-SW.git ./
+```
+
+And you're ready.
+
+If you need just the widget, you could add the needed files:
+
+```bash
+vbsw.css
+vbsw.js
+vbsw.php
+simple_html_dom.php
+```
+
+load CSS and Javascript in the head your web page:
+
+```html
+<link href="./vbsw.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="vbsw.js" type="text/javascript"></script>
+```
+
+do not forget jQuery, now you can simply assign the class **vex-vbsw** to the element where you want the search widget to appear, like this:
+
+```html
+<div id="vex-vbsw"></div>
+```
+
+### 8. That's all, folks!
+
+Don't forget to see user's guide on youtube! <link to arrive>
