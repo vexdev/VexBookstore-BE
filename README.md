@@ -11,7 +11,9 @@ If you use a single server, those are the minimal software requirements:
  * MySQL >= 5.6 - Needed for fulltext searches in InnoDB tables.
  * Tomcat 7
  * Apache2
- * PHP >= 5.5 **with intl extension** - Needed for Symfony-2.3
+ * PHP >= 5.5
+ * PHP **intl extension** - Needed for Symfony-2.3
+ * PHP **pecl_http extension** - Needed for Widget
  * Syslog - Only if you need log messages from Backend.
  * git - To download sources and Frontend.
 
